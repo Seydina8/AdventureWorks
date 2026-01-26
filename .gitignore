@@ -1,0 +1,29 @@
+# Power BI
+*.pbix.tmp
+*.pbit.tmp
+~$*.pbix
+
+# Données sensibles
+*.csv
+*.xlsx
+*.xls
+Data/*.csv
+Data/*.xlsx
+Data/*.xls
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.cache
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Fichiers de configuration personnels
+*.local
+.env
